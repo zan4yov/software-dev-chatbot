@@ -121,3 +121,14 @@ Response:
 ```env 
 { "reply": "CSS is a style sheet language..." }
 ```
+
+## 7) Troubleshooting
+
+- No response in UI
+Check browser console & Network tab for /chat errors.
+
+- 401 Unauthorized / OpenAI error
+Ensure .env is loaded and OPENAI_API_KEY is valid. Restart the server after editing .env.
+
+- Push blocked by secret scanning
+You accidentally committed a key. Rotate it, remove from code, and rewrite git history before pushing
