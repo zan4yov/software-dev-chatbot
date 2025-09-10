@@ -15,6 +15,7 @@ Frontend lives in `/public` (HTML/CSS/JS), backend in `server.js` calling OpenAI
 ---
 
 ## Project Structure
+```
 software-dev-chatbot/
 ├─ public/
 │ ├─ index.html
@@ -26,7 +27,7 @@ software-dev-chatbot/
 ├─ .gitignore
 ├─ .env # <- not committed; stores your private API key
 └─ package.json
-
+```
 ---
 
 ## Prerequisites
