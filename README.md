@@ -39,4 +39,19 @@ software-dev-chatbot/
 From the project root:
 ```bash
 npm install
+```
 This command generates the node_modules/ folder automatically based on package.json.
+
+## 2) Configure Environment Variables (`.env`)
+
+Create a file named `.env` in the project root:
+
+```env
+OPENAI_API_KEY=sk-your-private-key-here
+```
+
+Use your own key. Do not share it, and do not commit .env to Git.
+
+The project already loads it in server.js using:
+
+require('dotenv').config();
